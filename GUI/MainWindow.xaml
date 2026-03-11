@@ -326,13 +326,13 @@
                         <RowDefinition/>
                     </Grid.RowDefinitions>
                     <Button Grid.Row="0" Height="30"
-                Click="btnDeleteCurriculum_Click" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}"
+                Click="btnDeleteSubject_Click" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}"
                 Background="Transparent" BorderThickness="0">
                         <Label>
                             <Underline>Kustuta õppeaine</Underline>
                         </Label>
                     </Button>
-                    <Button Grid.Row="1" Height="30" Width="130" Click="btnEditCurriculum_Click" Content="Salvesta muudatused"/>
+                    <Button Grid.Row="1" Height="30" Width="130" Click="btnEditSubject_Click" Content="Salvesta muudatused"/>
                 </Grid>
             </Grid>
         </StackPanel>
